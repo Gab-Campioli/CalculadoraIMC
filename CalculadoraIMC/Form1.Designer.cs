@@ -39,6 +39,7 @@
             this.lblIMC = new System.Windows.Forms.Label();
             this.lblClass = new System.Windows.Forms.Label();
             this.lblMostrarClass = new System.Windows.Forms.Label();
+            this.btnReset = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblPeso
@@ -135,7 +136,7 @@
             // 
             this.lblClass.AutoSize = true;
             this.lblClass.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblClass.Location = new System.Drawing.Point(78, 293);
+            this.lblClass.Location = new System.Drawing.Point(33, 290);
             this.lblClass.Name = "lblClass";
             this.lblClass.Size = new System.Drawing.Size(118, 24);
             this.lblClass.TabIndex = 9;
@@ -145,16 +146,30 @@
             // 
             this.lblMostrarClass.AutoSize = true;
             this.lblMostrarClass.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMostrarClass.Location = new System.Drawing.Point(90, 326);
+            this.lblMostrarClass.Location = new System.Drawing.Point(33, 323);
             this.lblMostrarClass.Name = "lblMostrarClass";
             this.lblMostrarClass.Size = new System.Drawing.Size(0, 24);
             this.lblMostrarClass.TabIndex = 10;
+            // 
+            // btnReset
+            // 
+            this.btnReset.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnReset.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnReset.ForeColor = System.Drawing.Color.Black;
+            this.btnReset.Location = new System.Drawing.Point(195, 345);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(81, 26);
+            this.btnReset.TabIndex = 11;
+            this.btnReset.Text = "Refazer";
+            this.btnReset.UseVisualStyleBackColor = false;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(288, 383);
+            this.Controls.Add(this.btnReset);
             this.Controls.Add(this.lblMostrarClass);
             this.Controls.Add(this.lblClass);
             this.Controls.Add(this.lblIMC);
@@ -186,6 +201,7 @@
         private System.Windows.Forms.Label lblIMC;
         private System.Windows.Forms.Label lblClass;
         private System.Windows.Forms.Label lblMostrarClass;
+        private System.Windows.Forms.Button btnReset;
     }
 }
 

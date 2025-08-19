@@ -106,5 +106,18 @@ namespace CalculadoraIMC
                 btnCalcular.PerformClick();
             }
         }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            txbPeso.Text = "";
+            txbAlt.Text = "";
+            txbResultado.Text = "";
+            lblMostrarClass.Text = "";
+
+            txbPeso.Enabled = true;
+            txbAlt.Enabled = true;
+
+            txbPeso.Focus();
+        }
     }
 }
