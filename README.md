@@ -29,6 +29,7 @@ O programa permite ao usuário inserir seu **peso** e sua **altura**, e ao clica
 ## 🧠 Cálculo do IMC
 
 A fórmula utilizada para o cálculo é:
+
 IMC = peso / (altura * altura)
 
 O resultado é exibido com duas casas decimais.
@@ -66,17 +67,6 @@ O resultado é exibido com duas casas decimais.
 4. Insira o peso e a altura nos campos correspondentes.
 5. Clique em **"Calcular"** para ver o resultado.
 6. Clique em **"Calcular Novamente"** para reiniciar os campos e fazer um novo cálculo.
-
-## 📁 Estrutura do Projeto
-
-CalculadoraIMC/
-├── CalculadoraIMC.sln # Solução do Visual Studio
-├── Form1.cs # Código do formulário principal
-├── Form1.Designer.cs # Layout do formulário
-├── Program.cs # Ponto de entrada do programa
-├── print1.png # Print da tela inicial
-├── print2.png # Print com resultado do IMC
-└── README.md # Descrição do projeto
 
 ---
 
